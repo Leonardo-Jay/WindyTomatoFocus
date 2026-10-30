@@ -22,6 +22,20 @@
 
 ---
 
+## 界面预览
+
+设置专注时长与每日目标：
+
+![准备专注界面：设置时长、每日目标与连续达标天数](assets/screenshots/focus-ready.png)
+
+进入专注后，查看计时与累计投入：
+
+![专注界面：倒计时与周、月、年专注统计](assets/screenshots/focus-session.png)
+
+截图来自 0.6.1 beta 品牌版；公开源码运行时使用通用图标和系统提示音。截图与其中的品牌素材仅用于展示，授权边界见 [`RIGHTS.md`](RIGHTS.md)。
+
+---
+
 ## 把注意力留给真正重要的事
 
 | 专注当下 | 看见积累 | 自由掌控 |
@@ -59,6 +73,7 @@ python zhuchengxu.py
 ├── demo.py                        # 设置与辅助对话框界面
 ├── jianku.py                      # SQLite 记录和设置读写
 ├── assets/public/                 # 公开版通用图标
+├── assets/screenshots/            # 软件界面截图
 ├── tools/generate_public_assets.py # 通用图标生成脚本
 ├── shujuku/                       # 版本记录与程序内版权说明
 ├── LICENSE                        # 代码的 GPLv3 正文
@@ -72,6 +87,7 @@ python zhuchengxu.py
 | 内容 | 授权 |
 | --- | --- |
 | Python 源码、`tools/` 脚本、`assets/public/` 通用图标 | [GPL-3.0-only](LICENSE)。 |
+| `assets/screenshots/` 软件界面截图 | 仅用于展示项目，不随源码按 GPL 授权；详见 [`RIGHTS.md`](RIGHTS.md)。 |
 | “风中番茄专注”名称、作者原创品牌图标与音乐 | 权利由 LeonardoJay 保留；原始文件不包含在本仓库中，GPL 不授予使用这些品牌素材的许可。 |
 | PyQt5、PyQt-Fluent-Widgets 等第三方依赖 | 由各自权利人的许可证单独约束。 |
 

@@ -32,3 +32,6 @@ path/self/
 *.log
 .DS_Store
 Thumbs.db
+
+# KStore website (local only)
+/site/
