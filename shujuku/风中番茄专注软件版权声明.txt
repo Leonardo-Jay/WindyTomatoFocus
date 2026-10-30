@@ -1,0 +1,13 @@
+风中番茄专注 — 版权与许可
+
+版权所有 © 2024–2026 LeonardoJay。
+
+本公开版本的 Python 源码、图标生成脚本和 assets/public 中的通用图标，按 GNU General Public License version 3.0 only（GPL-3.0-only）授权。完整条款见仓库根目录 LICENSE。GPL 允许在遵守条款的前提下使用、修改、分发和商用代码。
+
+“风中番茄专注”项目名称、作者原创品牌 Logo、其他原创图标和音乐不随本公开源码授予使用许可；这些原始文件不包含在公开仓库中。公开版使用通用图标和 Windows 系统提示音。
+
+PyQt5、PyQt-Fluent-Widgets 等第三方组件由各自权利人依据其许可证授权。
+
+专注记录和偏好仅保存在本机 shujuku 目录。请自行妥善备份。
+
+项目作者：LeonardoJay（GitHub：Leonardo-Jay）

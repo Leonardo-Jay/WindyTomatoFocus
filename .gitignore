@@ -1,0 +1,34 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.deps/
+.smoke-*/
+venv/
+.spyproject/
+.idea/
+.vscode/
+
+# Packaging output and historical installers
+build/
+dist/
+installfiles/
+*.spec
+houduan.py
+
+# Local focus history and preferences: generated on first run
+shujuku/*.db
+shujuku/*.db-*
+shujuku/*.sqlite*
+shujuku/defaultdata.json
+
+# Original brand artwork and music remain private; the public app uses assets/public.
+path/self/
+
+# Temporary and OS files
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+# Versions used for the Windows source smoke check.
+PyQt5==5.15.10
+PyQt-Fluent-Widgets==1.11.3
+PyQt5-Frameless-Window==0.8.2
+darkdetect==0.8.0
+plyer==2.1.0

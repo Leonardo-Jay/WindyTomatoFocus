@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">风中番茄专注 · Windy Tomato Focus</title>
+  <desc id="desc">深蓝色背景上的通用时钟图形，以及风中番茄专注项目标题。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101e34"/>
+      <stop offset="1" stop-color="#0c1424"/>
+    </linearGradient>
+    <linearGradient id="focus" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#57e0ce"/>
+      <stop offset="1" stop-color="#1da7c8"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="31"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="32" fill="url(#bg)"/>
+  <circle cx="1055" cy="14" r="175" fill="#173959" opacity=".35" filter="url(#glow)"/>
+  <circle cx="205" cy="357" r="170" fill="#9e3b45" opacity=".19" filter="url(#glow)"/>
+  <g opacity=".17" stroke="#92a9be" fill="none">
+    <path d="M0 332 Q290 219 601 333 T1200 287"/>
+    <path d="M0 363 Q300 247 604 364 T1200 316"/>
+    <path d="M0 390 Q300 280 603 390 T1200 344"/>
+  </g>
+  <g transform="translate(947 208)">
+    <circle r="132" fill="#172b40" stroke="#2d455b" stroke-width="2"/>
+    <circle r="105" fill="none" stroke="#334961" stroke-width="17"/>
+    <path d="M0 -105 A105 105 0 1 1 -104 13" fill="none" stroke="url(#focus)" stroke-width="17" stroke-linecap="round"/>
+    <circle r="69" fill="#fafcf9"/>
+    <path d="M0 -61 V-51 M0 51 V61 M-61 0 H-51 M51 0 H61" stroke="#8accca" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 -38 V3 L32 23" stroke="#ff9a5c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g fill="#fff" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="78" y="103" font-size="20" font-weight="700" letter-spacing="5" fill="#70e3bc">WINDY TOMATO FOCUS</text>
+    <text x="76" y="208" font-size="74" font-weight="700">风中番茄专注</text>
+    <text x="80" y="267" font-size="27" fill="#b4c7d8">让每一分钟，都向真正重要的事靠近。</text>
+  </g>
+  <rect x="80" y="316" width="162" height="41" rx="20.5" fill="#194b4b"/>
+  <text x="161" y="343" text-anchor="middle" fill="#9cf2d2" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="17" font-weight="600">Windows 桌面端</text>
+  <rect x="256" y="316" width="125" height="41" rx="20.5" fill="#39313c"/>
+  <text x="318" y="343" text-anchor="middle" fill="#ffc5a7" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="17" font-weight="600">0.6.1 beta</text>
+</svg>
